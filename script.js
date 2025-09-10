@@ -23,10 +23,10 @@ function applyPhoneMask(input) {
         
         // Форматирование номера
         if (cleanDigits.length > 0) formattedValue += '+7';
-        if (cleanDigits.length > 1) formattedValue +=  ` (${cleanDigits.slice(1, 4)}`;
+        if (cleanDigits.length > 1) formattedValue += ` (${cleanDigits.slice(1, 4)}`;
         if (cleanDigits.length >= 4) formattedValue += ')';
-        if (cleanDigits.length >= 5) formattedValue +=  `${cleanDigits.slice(4, 7)} `;
-        if (cleanDigits.length >= 8) formattedValue += -` ${cleanDigits.slice(7, 9)} `;
+        if (cleanDigits.length >= 5) formattedValue += ` ${cleanDigits.slice(4, 7)}`;
+        if (cleanDigits.length >= 8) formattedValue += `-${cleanDigits.slice(7, 9)}`;
         if (cleanDigits.length >= 10) formattedValue += `-${cleanDigits.slice(9, 11)}`;
     }
     
