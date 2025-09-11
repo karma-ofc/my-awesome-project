@@ -164,7 +164,7 @@ form?.addEventListener('submit', (e) => {
     dlg.close('success');
     form.reset();
     
-    window.location.href = 'thankyou.html';
+    window.location.href = 'thxu.html';
 });
 
 // Возвращение фокуса после модалки
