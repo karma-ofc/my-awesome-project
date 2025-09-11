@@ -292,7 +292,7 @@ body {
 /* HEROSECTION */
 .hero {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.15)),
-    url("https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80") center/cover no-repeat;
+    url("https://images.unsplash.com/photo-1757269267274-085b02b0ce8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   color: white;
   padding: clamp(2rem, 6vw, 6rem) 1rem;
   border-radius: var(--radius);
